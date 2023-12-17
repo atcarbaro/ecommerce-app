@@ -9,7 +9,7 @@ const WelcomeScreen = ({ navigation }: Props) => {
 
   setTimeout(callback, 5000);
   function callback() {
-    console.log('DESPUES DE 5 SEGUNDOS')
+    console.log('After 5 seconds')
     navigation.navigate('Initial')
   }
 
